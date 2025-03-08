@@ -1,0 +1,177 @@
+/* General Reset */
+* {
+  /*
+  background-image: url(../images/white\ image.jpg);
+  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body {
+  background-image: url(../images/background\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+
+/* Header Styling */
+a {
+  text-decoration: none;
+  color: slateblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 50px;
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  padding: 80px;
+  margin: 80px 50px;
+  border-radius: 80px;
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section p {
+  color: black;
+}
+
+/* Medicine  Styling */
+
+.medicine-gallery p {
+  color: darkblue;
+}
+
+.medicine-gallery {
+  background-image: url(../images/image.png);
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Flexible number of columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.medicine-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-item img {
+  width: 100%;
+  height: auto;
+  max-width: 200px; /* Adjusts max image size */
+  margin-bottom: 10px;
+}
+
+.medicine-info p {
+  margin: 10px 0;
+}
+
+.buy-now {
+  padding: 10px 20px;
+  background-color: deeppink;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.buy-now:hover {
+  background-color: blue;
+}
+/*end medicine styling*/
+
+/* Footer Styling */
+footer {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+  opacity: 1;
+}
+/*end footer section*/

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phawlos Pharmacy</title>
+    <link rel="stylesheet" href="../CSS/medicine.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--start header-->
+    <nav class="navbar">
+      <a href="#" class="logo">Welcome to Phawlos Pharmacy </a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#medicine">Medicine</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#login">Login </a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <!--end header-->
+    <!--start medicine section-->
+    <section id="medicine">
+      <h2>Our Medicines</h2>
+      <div class="medicine-gallery">
+        <div class="medicine-item">
+          <img src="../images/Aspirin.png" alt="Aspirin" class="Aspirin-img" />
+          <div class="medicine-info">
+            <p><strong>Aspirin</strong></p>
+            <p>
+              Important for reducing pain, fever, and inflammation. Often used
+              to treat headaches, arthritis, and heart conditions.
+            </p>
+            <p><strong>Price:</strong> Birr 25</p>
+            <button class="buy-now" onclick="orderMedicine('Aspirin', 5.99)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/paracetamol.jpg"
+            alt="Paracetamol"
+            class="paracetamol-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Paracetamol</strong></p>
+            <p>
+              Used for relieving mild to moderate pain such as headaches, muscle
+              aches, or minor arthritis pain. Also helps reduce fever.
+            </p>
+            <p><strong>Price:</strong> Birr 30</p>
+            <button class="buy-now" onclick="orderMedicine('Panadol', 4.50)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/amoxicillin.jpg"
+            alt="Amoxicillin"
+            class="amoxicillin-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Amoxicillin</strong></p>
+            <p>
+              Important antibiotic used to treat various bacterial infections,
+              including ear infections, pneumonia, and urinary tract infections.
+            </p>
+            <p><strong>Price:</strong> Birr 15</p>
+            <button class="buy-now" onclick="orderMedicine('Amoxicillin', 15)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/ibuprofen.jpg"
+            alt="Ibuprofen"
+            class="ibuprofen-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Ibuprofen</strong></p>
+            <p>
+              Used to reduce fever, pain, and inflammation. Commonly used for
+              conditions such as arthritis, menstrual pain, and headaches.
+            </p>
+            <p><strong>Price:</strong> Birr 45</p>
+            <button class="buy-now" onclick="orderMedicine('Ibuprofen', 45)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img src="../images/image-2.jpg" alt="Medicine 2" class="image-2" />
+          <div class="medicine-info">
+            <p><strong>Medicine 2</strong></p>
+            <p>Description of Medicine 2 goes here.</p>
+            <p><strong>Price:</strong> Birr 70</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 2', 70)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img src="../images/image-3.jpg" alt="Medicine 3" class="image-3" />
+          <div class="medicine-info">
+            <p><strong>Medicine 3</strong></p>
+            <p>Description of Medicine 3 goes here.</p>
+            <p><strong>Price:</strong> Birr 55</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 3', 55)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img src="../images/image-4.jpg" alt="Medicine 4" class="image-4" />
+          <div class="medicine-info">
+            <p><strong>Medicine 4</strong></p>
+            <p>Description of Medicine 4 goes here.</p>
+            <p><strong>Price:</strong> Birr 50</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 4', 50)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img src="../images/image-5.jpg" alt="Medicine 5" class="image-5" />
+          <div class="medicine-info">
+            <p><strong>Medicine 5</strong></p>
+            <p>Description of Medicine 5 goes here.</p>
+            <p><strong>Price:</strong> Birr 25</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 5', 25)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/Azithromycin.jpg"
+            alt="Azithromycin"
+            class="Azithromycin"
+          />
+          <div class="medicine-info">
+            <p><strong>Azithromycin</strong></p>
+            <p>
+              Azithromycin is essential in treating a variety of bacterial
+              infections due to its broad spectrum of activity and
+              effectiveness.
+            </p>
+            <p><strong>Price:</strong> Birr 40</p>
+            <button class="buy-now" onclick="orderMedicine('Azithromycin', 40)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/omeprazole.jpg"
+            alt="omeprazole"
+            class="omeprazole"
+          />
+          <div class="medicine-info">
+            <p><strong>Omeprazole</strong></p>
+            <p>
+              It reduce the amount of acid produced in the stomach. Omeprazole
+              lies in its ability to treat several common gastrointestinal
+              conditions.
+            </p>
+            <p><strong>Price:</strong> Birr 35</p>
+            <button class="buy-now" onclick="orderMedicine('omeprazole', 35)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end medicine section-->
+
+    <!--start footer section-->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Phawlos Pharmacy. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="social-media">
+          <a href="#" target="_blank"
+            ><img src="../images/facebook.png" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="../images/twitter.png" alt="Twitter"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="../images/Instagram.png" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!--end footer section-->
+  </body>
+</html>

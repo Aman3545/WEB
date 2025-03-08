@@ -1,0 +1,194 @@
+/* General Reset */
+* {
+  /*
+  background-image: url(../images/white\ image.jpg);
+  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body {
+  background-image: url(../images/background\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+
+/* Header Styling */
+a {
+  text-decoration: none;
+  color: slateblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 50px;
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  padding: 1px;
+  margin: 50px 0;
+  border-radius: 2px;
+  margin-top: 1px;
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section p {
+  color: black;
+}
+
+/*start gallery styling*/
+.MD-g {
+  color: #333;
+  text-align: center;
+  padding: 150px;
+}
+#gallery {
+  background-image: url(../images/Gallery\ image.jpg);
+  padding: 100px;
+}
+
+.gallery-img {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Flexible columns */
+  gap: 20px; /* Space between images */
+  grid-template-rows: auto; /* Automatically adjust rows based on content */
+}
+
+.gallery-img img {
+  width: 100%; /* Make images responsive */
+  height: auto;
+  border-radius: 8px; /* Optional: Adds rounded corners to images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for a modern look */
+}
+
+.Aspirin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.paracetamol-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.amoxicillin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.ibuprofen-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.image-2:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.image-3:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.image-4:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.image-5:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.omeprazole:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Azithromycin:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*end gallery styling*/
+
+/* Footer Styling */
+footer {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+  opacity: 1;
+}
+/*end footer section*/
